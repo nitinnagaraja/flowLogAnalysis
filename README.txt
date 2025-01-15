@@ -1,5 +1,7 @@
 The main program is in flowLogAnalysis.py
 
+Execute the program in one of two ways described below.
+
 To execute the program with default input and output file paths and names, run the following.
 % python3 flowLogAnalysis.py
   File paths and names used in this case are declared in constants.py
