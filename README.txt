@@ -22,7 +22,7 @@ ASSUMPTIONS AND BEHAVIORS
 
 1.  The flow log input data file does not have headers. All the non-empty rows are flow log records.
 
-2.  Each row/line in the flow log data ideally has the following 14 fields/columns.
+2.  The flow log records are in the default format (version 2). Each row/line in the flow log data ideally has the following 14 fields/columns.
     ["version", "account-id", "interface-id", "srcaddr", "dstaddr", "srcport", "dstport", "protocol", "packets", "bytes", "start", "end", "action", "log-status"]
     This is derived from the flow log data format here - https://docs.aws.amazon.com/vpc/latest/userguide/flow-log-records.html#flow-logs-fields
 
